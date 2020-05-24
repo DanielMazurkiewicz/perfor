@@ -1,0 +1,21 @@
+{
+  "name": "perfor",
+  "version": "1.0.0",
+  "description": "Javascript/Typescript performance tests",
+  "main": "index.js",
+  "repository": "https://github.com/DanielMazurkiewicz/perfor.git",
+  "author": "Daniel Mazurkiewicz <daniel.mazurkiewicz.dm@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "ts-node tests/testConfiguration1.ts",
+    "compile": "tsc index.ts"
+  },
+  "devDependencies": {
+    "ts-node": "^8.10.1",
+    "tsc": "^1.20150623.0",
+    "typescript": "^3.9.3"
+  },
+  "dependencies": {
+    "@types/node": "^14.0.5"
+  }
+}
